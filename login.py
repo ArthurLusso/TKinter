@@ -31,4 +31,7 @@ entry_senha = tk.Entry(frame_borda_senha, width=35, font=("Helvetica", 12), bg="
 entry_senha.insert(0, "senha")
 entry_senha.pack(padx=2, pady=2, ipady=8)
 
+btn_acessar = tk.Label(main_frame, text="ACESSAR", bg="#5b9bd5", fg="white", font=("Helvetica", 10, "bold"))
+btn_acessar.pack(pady=(0, 30), ipadx=120, ipady=10)
+
 root.mainloop()

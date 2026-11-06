@@ -24,4 +24,11 @@ entry_email = tk.Entry(frame_borda_email, width=35, font=("Helvetica", 12), bg="
 entry_email.insert(0, "e-mail")
 entry_email.pack(padx=2, pady=2, ipady=8)
 
+frame_borda_senha = tk.Frame(main_frame, bg="#e0e0e0", bd=2)
+frame_borda_senha.pack(pady=(0, 25))
+
+entry_senha = tk.Entry(frame_borda_senha, width=35, font=("Helvetica", 12), bg="#efefef", fg="grey", bd=0, highlightthickness=0)
+entry_senha.insert(0, "senha")
+entry_senha.pack(padx=2, pady=2, ipady=8)
+
 root.mainloop()

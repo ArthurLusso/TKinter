@@ -34,4 +34,7 @@ entry_senha.pack(padx=2, pady=2, ipady=8)
 btn_acessar = tk.Label(main_frame, text="ACESSAR", bg="#5b9bd5", fg="white", font=("Helvetica", 10, "bold"))
 btn_acessar.pack(pady=(0, 30), ipadx=120, ipady=10)
 
+link_primeiro = tk.Label(main_frame, text="PRIMEIRO ACESSO", bg="white", fg="#5b9bd5", font=("Helvetica", 10, "bold",))
+link_primeiro.pack()
+
 root.mainloop()
